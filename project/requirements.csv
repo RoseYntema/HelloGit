@@ -1,0 +1,10 @@
+Id,Parent,Summary,Description
+R1,,Max input throttle %,"The maximum input throttle is 100%."
+R2,,Cruise control requirements,"Set of cruise control requirements"
+R2.1,R2,Cruise control speed operation range,"Cruise control has a minimum and maximum operating speed."
+R2.1.1,R2.1,Minimum vehicle speed,"The speed of the vehicle must be at least 40 km/h for the cruise control system to engage."
+R2.1.2,R2.1,Maximum vehicle speed,"The speed of the vehicle must be no more than 85km/h for the cruise control system to engage."
+R2.2,R2,Maintain and adjust speed,"The system will maintain the vehicle speed set by the driver and adjust the speed based on forward vehicles"
+R2.3,R2,Driver has ability to override/disable,"The driver has the ability to override/disable the system at all times"
+R2.3.1,R2.3,Disable upon braking,"The system will be disabled when the driver taps on the brakes"
+R2.3.2,R2.3,Disengage on acceleration,"When the driver taps the accelerator, the system is temporarily disengaged while the driver accelerates the car. The system will re-engage at the previously set speed once the accelerator is no longer be pressed"
